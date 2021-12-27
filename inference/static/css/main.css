@@ -1,0 +1,51 @@
+div > h2 {
+    width: 700px;
+    padding:20px;
+    margin-left: 50px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    color: darkslategrey;
+    font-weight: bold;
+    font-family: "'Times New Roman', Times, serif;
+}
+div > div {
+    width: 500px;
+}
+.left, .right{
+    width : 50%
+}
+.left{
+    float: left;
+    text-align: left;
+    margin: auto;
+}
+.right{
+    float: right;
+    text-align:right;
+    margin: auto;
+}
+.predict{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    top : 50%;
+}
+div > div > input{
+    float: center;
+    position : relative;
+    display: block;
+    height: 25px;
+}  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
