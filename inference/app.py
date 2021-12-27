@@ -34,7 +34,7 @@ data = pd.read_csv('D:/20211/KHDL/KHDL_IT4930/dataset/data.csv', sep = '\t', ind
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = Model().to(device = device)
-load_model = torch.load('D:/20211/KHDL/KHDL_IT4930/inference/misc/ann_107.pt', map_location=device)
+load_model = torch.load('D:/20211/KHDL/KHDL_IT4930/inference/misc/ann_174.pt', map_location=device)
 model.load_state_dict(load_model['model'])
 
 print('Model loaded. Check http://127.0.0.1:5000/')

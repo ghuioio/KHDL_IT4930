@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 class Model(nn.Module):
-    def __init__(self, input_dim = 678, layer_dim_1 = 64, layer_dim_2 = 32, output_dim = 1, p = 0.1):
+    def __init__(self, input_dim = 390, layer_dim_1 = 64, layer_dim_2 = 32, output_dim = 1, p = 0.1):
         super(Model, self).__init__()
         self.layer_dim_1 = layer_dim_1
         self.input_dim = input_dim
